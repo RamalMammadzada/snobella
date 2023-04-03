@@ -1,0 +1,55 @@
+#bag_products {
+    height: 100%;
+    margin-top: 80px;
+  .container {
+    display: flex;
+    gap: 24px;
+    
+    margin-bottom: 200px;
+
+    .shoulder_ {
+      img {
+        margin-left: 105px;
+      }
+    }
+
+    .backpack_ {
+      img {
+        margin-left: 87px;
+      }
+    }
+
+    .hand_ {
+      img {
+        width: 180px;
+        height: 114px;
+        margin-top: auto;
+        margin-left: 92px;
+      }
+    }
+    .evenings_ {
+      img {
+        width: 167px;
+        height: 115px;
+        margin-top: auto;
+        margin-left: 90px;
+      }
+    }
+
+    div {
+      height: 162px;
+      display: flex;
+      background-color: rgba(245, 245, 245, 1);
+      border-radius: 8px;
+      overflow: hidden;
+
+      p {
+        position: absolute;
+        margin-top: 24px;
+        margin-left: 24px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+}

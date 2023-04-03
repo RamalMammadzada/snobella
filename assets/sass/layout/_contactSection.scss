@@ -1,0 +1,52 @@
+#contact {
+  background-color: rgba(0, 120, 120, 1);
+  display: flex;
+  
+
+
+  .contact_ {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 48px;
+    width: 100%;
+max-width: 1128px;
+    display: flex;
+  justify-content: space-between;
+
+    align-items: center;
+    margin:  auto;
+    .phoneNumber {
+      color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      gap: 10px;
+      a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+      }
+    }
+
+    ul {
+      display: flex;
+      gap: 10px;
+
+      li {
+        list-style: none;
+        &:not(:last-child) {
+            border-right: 1px solid;
+            color: rgba(255, 255, 255, 0.75);
+
+            
+          }
+        a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.75);
+            padding-right: 5px;
+            font-size: 14px;
+        }
+
+       
+      }
+    }
+  }
+}

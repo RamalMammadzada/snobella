@@ -1,0 +1,100 @@
+nav {
+  border-bottom: 1px solid rgba(39, 49, 66, 0.15);
+  
+}
+
+.container {
+  margin: 0 auto;
+  height: 48px;
+  max-width: 1128px;
+}
+
+.snobella {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 68px;
+
+  h1{
+    font-size: 40px;
+  }
+
+  .search_ {
+    font-size: 14px;
+    .basket{
+        gap: 5px;
+        p{
+          color: rgba(46, 46, 46, 1);
+        }
+
+        i{
+          color: rgba(39, 49, 66, 0.9);
+        }
+    }
+    .nav_icons{
+        display: flex;
+        gap: 5px;
+    }
+    i{
+          width: 20.31px;
+          height: 24px;
+        margin-top: 15px;
+    }
+   p{
+    margin-top: 15px;
+   }
+
+   
+    div {
+      margin-left: 29px;
+    }
+
+    .search {
+      display: flex;
+align-items: center;
+input{
+    
+    width: 504px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+      i {
+        position: absolute;
+        margin-left: 464.44px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+
+  div {
+    display: flex;
+  }
+}
+
+.options {
+  ul {
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    max-width: 1128px;
+    margin: 0 auto;
+    
+
+    li {
+      
+        margin-top: 31px;
+      margin-bottom: 24px;
+
+      a{
+        width: 107px;
+        height: 27px;
+        font-size: 16px;
+        line-height: 170%;
+        
+      }
+    }
+  }
+}
+
+ 

@@ -1,0 +1,27 @@
+footer{
+    height: 72px;
+    .container{
+
+        display: flex;
+        justify-content: space-between;
+
+        p{
+            color: rgba(33, 33, 33, 0.75);
+        }
+
+        .foot_icons{
+            display: flex;
+            gap: 36.33px;
+
+            color: rgba(33, 33, 33, 1);
+            
+            i{
+                margin-top: 24.96px;
+            }
+        }
+
+        .year{
+            margin-top: 22px;
+        }
+    }
+}
